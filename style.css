@@ -5,10 +5,17 @@
     border: 1px solid black
 }
 
+
+header{
+    background-color:rgba(180, 208, 231, 1) ;
+}
+
+/* NAVBAR START*/
 nav{
     display: flex;
     justify-content: space-between;
     padding: 30px 10px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .lista1{
@@ -30,3 +37,39 @@ nav{
 .lista1 ul,.lista2 ul{
  gap:20px;
 }
+ /* NAVBAR END */
+
+ .header-container{
+    max-width: 1300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .titolo{
+    width: 500px;
+    height: auto;
+    margin-bottom: 40px;
+    background-color: lightcoral;
+
+ }
+
+ .hero{
+    display: flex;
+    width: 100%;  
+ }
+
+ .pink{
+    flex-grow: 1;
+    height: 400px;
+    background-color: lightpink;
+ }
+ .blue{
+    flex-grow: 1;
+    height: 400px;
+    background-color: lightskyblue;
+ }
