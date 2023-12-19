@@ -5,8 +5,8 @@
     border: 1px solid black
 }
 
-
-header{                                                           /*HEADER START*/
+ /*HEADER START*/
+header{                                                          
     background-color:rgba(180, 208, 231, 1) ;
 }
 
@@ -72,11 +72,12 @@ nav{
     flex-grow: 1;
     height: 400px;
     background-color: lightskyblue;
- }                                                                  /* HEADER END */               
+ }                                                                                
+
+ /* HEADER END */ 
 
 
-
-                                                                   /*MAIN START*/
+/*MAIN START*/
 .main-container1,.main-container2,.main-container3,.main-container4,.main-container6,.main-container7{
  max-width: 1200px;
  margin-left: auto;
@@ -177,12 +178,36 @@ flex-wrap: wrap;
 }
 
 
+/* MAIN END*/
 
+/*FOOTER START*/
+footer{
+    height:600px;
+    background-color: black;
+}
 
+footer *{
+ border: 1px white solid;
+ color: white;
+}
 
-                                                                /* MAIN END*/
+.footer-container{
+    margin-top: 100px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.footer-container .info{
+    display: flex;
+}
 
+.info div{
+    flex-grow: 1;
+    height: 400px;
+}
+
+/*FOOTER END*/
 
 
 
