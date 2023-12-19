@@ -6,7 +6,7 @@
 }
 
 
-header{
+header{                                                           /*HEADER START*/
     background-color:rgba(180, 208, 231, 1) ;
 }
 
@@ -72,4 +72,27 @@ nav{
     flex-grow: 1;
     height: 400px;
     background-color: lightskyblue;
- }
+ }                                                                  /* HEADER END */               
+
+
+
+                                                                   /*MAIN START*/
+.main-container{
+ max-width: 1200px;
+ margin-left: auto;
+ margin-right: auto;
+}
+ 
+
+
+
+
+                                                                /* MAIN END*/
+
+
+
+
+
+
+
+                                                          
