@@ -83,7 +83,9 @@ nav{
  margin-right: auto;
 }
  
-
+main section{
+    height: 600px;
+}
 
 
 
