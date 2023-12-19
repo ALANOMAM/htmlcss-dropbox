@@ -104,8 +104,53 @@ main section{
 }
 
 .row{
-    background-color: lightpink;
+    background-color: lightpink;  
 }
+
+.main-container2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1{
+    height: 400px;
+    flex-grow: 1;
+   background-color: pink; 
+}
+
+.box2{
+    height:400px ;
+    flex-grow: 1;
+    background-color: lightskyblue;
+}
+
+.main-container3{
+    margin-top: 100px;
+    
+}
+
+.B-container{
+margin-top: 20px;
+background-color: aquamarine;
+display: flex;
+flex-wrap: wrap;   
+}
+
+.b{
+    height: 200px;
+    width: calc(100% /3);
+    background-color: lightblue;
+} 
+
+
+
+
+
+
+
                                                                 /* MAIN END*/
 
 
