@@ -153,6 +153,42 @@ flex-wrap: wrap;
     height: 400px;
 }
 
+.sezione5{
+    display: flex;
+}
+
+ .div1,.div2,.div3{
+    flex-grow: 1;
+}
+
+.div1,.div3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div1 div{
+    width:calc(100% /2);
+}
+
+.div1 div:nth-child(odd){
+    background-color: lightpink;
+}
+.div1 div:nth-child(even){
+    background-color: lightskyblue;
+}
+
+
+.div3 div{
+    width:calc(100% /2);
+}
+
+.div3 div:nth-child(odd){
+    background-color: lightpink;
+}
+.div3 div:nth-child(even){
+    background-color: lightskyblue;
+}
+
 
 
 .sezione6{
