@@ -77,10 +77,11 @@ nav{
 
 
                                                                    /*MAIN START*/
-.main-container{
+.main-container1,.main-container2,.main-container3,.main-container4,.main-container6,.main-container7{
  max-width: 1200px;
  margin-left: auto;
  margin-right: auto;
+
 }
  
 main section{
@@ -88,7 +89,23 @@ main section{
 }
 
 
+.main-container1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.columns{
+    display: flex;
+    gap:20px;
+}
+.column1,.column2,.column3{
+    background-color: lightpink;
+}
 
+.row{
+    background-color: lightpink;
+}
                                                                 /* MAIN END*/
 
 
