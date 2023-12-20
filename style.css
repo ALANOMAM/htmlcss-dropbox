@@ -332,7 +332,6 @@ footer{
 }
 
 footer *{
- border: 1px white solid;
  color: white;
 }
 
@@ -345,13 +344,34 @@ footer *{
 
 .footer-container .info{
     display: flex;
+
 }
 
 .info div{
     flex-grow: 1;
-    height: 400px;
+
 }
 
+.info strong{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.info li{
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+
+.italiano  hr{
+    border: solid 1px white;
+    width: 100px;
+    margin-bottom: 40px;
+}
+.italiano{
+    margin-top: 40px;
+}
 /*FOOTER END*/
 
 
