@@ -2,7 +2,11 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
-    border: 1px solid black
+    
+}
+
+body{
+    font-family: sans-serif;
 }
 
  /*HEADER START*/
@@ -33,6 +37,7 @@ nav{
     padding: 5px 10px;
     background-color: rgba(0, 97, 255, 1);
     color: white;
+    border-color:rgba(0, 97, 255, 1); ;
 }
 
 .lista1 li,.lista2 li{
@@ -84,6 +89,7 @@ nav{
  .pink button{
     padding: 10px 10px;
     background-color: rgba(0, 97, 255, 1);
+    border-color: rgba(0, 97, 255, 1);;
     color: white;
  }
 
@@ -115,7 +121,9 @@ main section{
     height:auto;
 }
 
-
+.sezione1 *{
+    border: 1px solid black;
+}
 .main-container1{
     margin-top: 100px;
     display: flex;
@@ -157,7 +165,8 @@ main section{
 .column1 button,.column2 button,.column3 button{
     margin-bottom: 20px;
     padding: 10px 20px;
-    background-color:rgba(0, 97, 255, 1); ;
+    background-color:rgba(0, 97, 255, 1); 
+    border-color: rgba(0, 97, 255, 1);;
     color: white;
 }
 
@@ -206,6 +215,7 @@ main section{
 .box2 button{
     padding: 10px 10px;
     background-color: white;
+    border-color: white;
 }
 
 .main-container3{
@@ -242,6 +252,10 @@ font-size: 20px;
     align-items: flex-start;
     gap: 40px;
     height: 400px;
+}
+
+.sezione5 *{
+    border: 1px solid black;
 }
 
 .sezione5{
@@ -310,6 +324,7 @@ font-size: 20px;
 .main-container6 button{
     padding: 10px 30px;
     background-color:white;
+    border-color: white;
 }
 
 .main-container6 h2{
@@ -328,12 +343,12 @@ font-size: 20px;
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 2px red solid ;
+    border-bottom: 2px black solid ;
 }
 
 .main-container7 h2{
     padding-bottom: 30px;
-    border-bottom: 2px blue solid;
+    border-bottom: 2px darkgray solid;
 }
 
 
@@ -351,7 +366,7 @@ footer *{
 }
 
 .footer-container{
-    margin-top: 100px;
+   padding-top: 100px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
