@@ -317,10 +317,25 @@ font-size: 20px;
 }
 
 .main-container7{
-    margin-top: 200px;
-    background-color: lightskyblue;
-    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
 }
+
+.main-container7 div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px red solid ;
+}
+
+.main-container7 h2{
+    padding-bottom: 30px;
+    border-bottom: 2px blue solid;
+}
+
 
 
 /* MAIN END*/
@@ -348,7 +363,7 @@ footer *{
 }
 
 .info div{
-    flex-grow: 1;
+width: calc(100% / 5);
 
 }
 
