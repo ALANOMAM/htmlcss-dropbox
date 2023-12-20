@@ -122,6 +122,12 @@ main section{
     flex-direction: column;
     gap: 30px;
 }
+.sottotitolo1{
+    font-size: 30px;
+}
+
+
+
 .columns{
     display: flex;
     gap:20px;
