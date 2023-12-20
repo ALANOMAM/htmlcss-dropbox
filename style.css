@@ -112,7 +112,7 @@ nav{
 }
  
 main section{
-    height: 600px;
+    height:auto;
 }
 
 
@@ -122,6 +122,8 @@ main section{
     flex-direction: column;
     gap: 30px;
 }
+
+
 .sottotitolo1{
     font-size: 30px;
 }
@@ -130,11 +132,41 @@ main section{
 
 .columns{
     display: flex;
-    gap:20px;
+    gap:40px;
 }
+.column1 strong,.column2 strong,.column3  strong{
+   font-size: 20px; 
+   background-color: blueviolet;
+}
+
+
+.column1 .icon,.column2 .icon,.column3 .icon{
+ margin-bottom: 10px;
+ display: flex;
+ gap:5px;
+}
+
 .column1,.column2,.column3{
-    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: flex-start;
+    padding: 20px;
 }
+
+.column1 button,.column2 button,.column3 button{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color:rgba(0, 97, 255, 1); ;
+    color: white;
+}
+
+.column1 .fa-check,.column2 .fa-check,.column3 .fa-check{
+    color: blue;
+    font-weight: bold;
+}
+
+
 
 
 .row{
@@ -142,7 +174,7 @@ main section{
 }
 
 .main-container2{
-    margin-top: 100px;
+    margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
