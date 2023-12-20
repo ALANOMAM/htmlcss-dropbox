@@ -121,9 +121,9 @@ main section{
     height:auto;
 }
 
-.sezione1 *{
+/*.sezione1 *{
     border: 1px solid black;
-}
+}*/
 .main-container1{
     margin-top: 100px;
     display: flex;
@@ -142,19 +142,37 @@ main section{
     display: flex;
     gap:40px;
 }
+
+.column1,.column2,.column3,.row{
+    border: 1px solid rgb(201, 201, 201);
+}
+
 .column1 strong,.column2 strong,.column3  strong{
    font-size: 20px; 
-   background-color: blueviolet;
 }
 
 
-.column1 .icon,.column2 .icon,.column3 .icon{
- margin-bottom: 10px;
+.column1 .icon,.column2 .icon,.column3 .icon,.row .icon{
+ margin-bottom: 0px;
  display: flex;
  gap:5px;
 }
 
-.column1,.column2,.column3{
+.icon1{  /* riguarda la stilizazione solo delle teste delle tre colonne+*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px rgb(201, 201, 201) solid;
+} 
+
+  .per-month {
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.internal-padding{
     display: flex;
     flex-direction: column;
     gap:10px;
@@ -166,7 +184,7 @@ main section{
     margin-bottom: 20px;
     padding: 10px 20px;
     background-color:rgba(0, 97, 255, 1); 
-    border-color: rgba(0, 97, 255, 1);;
+    border-color: rgba(0, 97, 255, 1);
     color: white;
 }
 
@@ -176,10 +194,34 @@ main section{
 }
 
 
+.row-content{
+    display: flex;
+    padding: 20px;
+}
 
+.row-content strong{
+    font-size: 20px;
+}
 
-.row{
-    background-color: lightpink;  
+.left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.right{
+    width:40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.right button{
+    padding:10px 10px;
+    background-color:  rgba(0, 97, 255, 1);
+    border-color:  rgba(0, 97, 255, 1);
+    color: white;
 }
 
 .main-container2{
