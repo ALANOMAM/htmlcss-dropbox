@@ -302,13 +302,18 @@ font-size: 20px;
 
 .main-container6{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
 }
-.B1{
-    flex-grow: 1;
+
+.main-container6 button{
+    padding: 10px 30px;
+    background-color:white;
 }
-.B2{
-    flex-grow: 1;
+
+.main-container6 h2{
+    color:rgba(97, 8, 43, 1);
 }
 
 .main-container7{
