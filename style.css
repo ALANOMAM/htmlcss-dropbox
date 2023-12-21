@@ -5,6 +5,11 @@
     
 }
 
+
+
+
+
+
 body{
     font-family: sans-serif;
 }
@@ -385,6 +390,7 @@ font-size: 20px;
     color:rgba(97, 8, 43, 1);
 }
 
+
 .main-container7{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -392,17 +398,53 @@ font-size: 20px;
     flex-direction: column;
 }
 
-.main-container7 div{
+.main-container7 .element{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 2px black solid ;
 }
 
+
+.accordion{
+    overflow: hidden;
+}
+
+.accordion__label, .accordion__content{
+    padding: 30px 20px;
+
+}
+
+
+.accordion__label{
+    width: 100%;
+    border-bottom: 1px  rgb(201, 201, 201) solid;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.accordion__content{
+    background: white;
+    display: none;
+}
+
+.accordion__input{
+    display: none;
+}
+
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+
 .main-container7 h2{
     padding-bottom: 30px;
-    border-bottom: 2px darkgray solid;
+    border-bottom: 1px  rgb(201, 201, 201) solid;
+   
 }
 
 
