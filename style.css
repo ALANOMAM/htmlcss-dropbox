@@ -6,10 +6,6 @@
 }
 
 
-
-
-
-
 body{
     font-family: sans-serif;
 }
@@ -131,8 +127,9 @@ nav{
 main section{
     height:auto;
 }
+                                               /*INIZIO SEZIONE 1 */
 
-.main-container1{
+.main-container1{                            
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -239,13 +236,13 @@ main section{
     color: white;
 }
 
+                                             /*INIZIO SEZIONE 2 */
 .main-container2{
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .box1{
     width: 60%;
@@ -274,7 +271,8 @@ main section{
     background-color: white;
     border-color: white;
 }
-
+                                         
+                                            /*INIZIO SEZIONE 3 */
 .main-container3{
     margin-top: 100px;
     
@@ -301,7 +299,8 @@ width: 100%;
 .b strong{
 font-size: 20px;
 }
-
+                                                  
+                                            /*INIZIO SEZIONE 4 */
 .main-container4{
     display: flex;
     flex-direction: column;
@@ -310,8 +309,9 @@ font-size: 20px;
     gap: 40px;
     height: 400px;
 }
+                                 
 
-
+                                         /*INIZIO SEZIONE 5 */
 .sezione5{
     display: flex;
 }
@@ -373,6 +373,7 @@ font-size: 20px;
     background-color:rgba(180, 208, 231, 1) ;
 }
 
+                                                    /*INIZIO SEZIONE 6 */
 .main-container6{
     display: flex;
     justify-content: space-between;
@@ -391,6 +392,7 @@ font-size: 20px;
 }
 
 
+                                            /*INIZIO SEZIONE 7 */
 .main-container7{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -407,7 +409,6 @@ font-size: 20px;
     border-bottom: 2px black solid ;
 }
 
-
 .accordion{
     overflow: hidden;
 }
@@ -417,7 +418,6 @@ font-size: 20px;
 
 }
 
-
 .accordion__label{
     width: 100%;
     border-bottom: 1px  rgb(201, 201, 201) solid;
@@ -426,7 +426,6 @@ font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
-
 
 .accordion__content{
     background: white;
